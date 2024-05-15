@@ -1,19 +1,19 @@
 # model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+model_name_or_path: meta-llama/Meta-Llama-3-8B
 adapter_name_or_path: saves/llama3-8b/lora/sft
 
 # method
 finetuning_type: lora
 
 # dataset
-task: mmlu
+task: cmmlu
 split: test
 template: fewshot
-lang: en
+lang: zh
 n_shot: 5
 
 # output
-save_dir: saves/llama3-8b/lora/eval
+save_dir: saves/llama3-8b/lora/chinese-eval
 
 # eval
 batch_size: 4

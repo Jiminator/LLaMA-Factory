@@ -126,7 +126,7 @@
     }
   },
   "slimorca": {
-    "hf_hub_url": "Open-Orca/SlimOrca",
+    "hf_hub_url": "cgato/SlimOrcaDedupCleaned",
     "formatting": "sharegpt"
   },
   "mathinstruct": {
@@ -221,7 +221,7 @@
     }
   },
   "evol_instruct": {
-    "hf_hub_url": "WizardLM/WizardLM_evol_instruct_V2_196k",
+    "hf_hub_url": "MaziyarPanahi/WizardLM_evol_instruct_V2_196k",
     "ms_hub_url": "AI-ModelScope/WizardLM_evol_instruct_V2_196k",
     "formatting": "sharegpt"
   },

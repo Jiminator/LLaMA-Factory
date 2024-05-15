@@ -1,6 +1,6 @@
 # model
 model_name_or_path: meta-llama/Meta-Llama-3-8B
-adapter_name_or_path: saves/llama3-8b/lora/sft
+adapter_name_or_path: saves/llama3-8b/slimorca/lora/sft
 
 # method
 stage: sft
@@ -8,7 +8,7 @@ do_predict: true
 finetuning_type: lora
 
 # dataset
-dataset: identity,alpaca_gpt4_en
+dataset: alpaca_gpt4_en
 template: llama3
 cutoff_len: 1024
 max_samples: 50
@@ -16,7 +16,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 # output
-output_dir: saves/llama3-8b/lora/predict
+output_dir: saves/llama3-8b/slimorca/lora/predict
 overwrite_output_dir: true
 
 # eval
