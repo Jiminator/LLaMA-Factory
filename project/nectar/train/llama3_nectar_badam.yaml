@@ -12,7 +12,7 @@ badam_verbose: 2
 
 # dataset
 dataset: nectar_sft
-template: llama3
+template: default
 cutoff_len: 1024
 max_samples: 1000
 

@@ -9,7 +9,7 @@ lora_target: q_proj,v_proj
 
 # dataset
 dataset: slimorca
-template: llama3
+template: default
 cutoff_len: 1024
 max_samples: 1000
 val_size: 0.1

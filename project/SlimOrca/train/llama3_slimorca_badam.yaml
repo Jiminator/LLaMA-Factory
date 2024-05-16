@@ -12,7 +12,7 @@ badam_verbose: 2
 
 # dataset
 dataset: slimorca
-template: llama3
+template: default
 cutoff_len: 1024
 max_samples: 1000
 val_size: 0.1
